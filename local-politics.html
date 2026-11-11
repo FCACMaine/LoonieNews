@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maine Local Politics | The Loonie News</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Libre+Baskerville&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Libre Baskerville', serif; background: #f5f0e6; color: #1a1a1a; line-height: 1.4; padding-bottom: 40px; font-size: 10pt; }
+  .paper { max-width: 1000px; margin: 20px auto; background: #fffef8; border: 1px solid #ddd; box-shadow: 0 0 15px rgba(0,0,0,0.1); padding: 30px 40px; }
+  .masthead { text-align: center; border-bottom: 4px double #000; border-top: 4px double #000; padding: 15px 0 10px; margin-bottom: 20px; }
+  .masthead h1 { font-family: 'Playfair Display', serif; font-size: 2.6rem; letter-spacing: 1px; }
+  nav { text-align: center; margin-bottom: 25px; font-size: 0.9rem; }
+  nav a { margin: 0 12px; color: #000; text-decoration: none; border-bottom: 1px solid #000; }
+  nav a:hover { background: #eee; }
+
+  .map-container { position: relative; text-align: center; margin: 20px auto 30px; max-width: 900px; }
+  .map-container img { width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+  .overlay {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.65); color: white; padding: 12px 28px;
+    font-size: 28px; font-weight: bold; letter-spacing: 1.5px; border-radius: 8px;
+    text-shadow: 2px 2px 4px #000; font-family: 'Playfair Display', serif;
+  }
+
+  .reps { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+  .reps h2 { font-family: 'Playfair Display', serif; text-align: center; margin-top: 0; border-bottom: 2px solid #000; padding-bottom: 8px; }
+  .rep-list { columns: 2; column-gap: 30px; line-height: 1.45; }
+  .rep-list p { margin: 4px 0; break-inside: avoid; }
+
+  .num {
+    display: inline-block;
+    font-weight: bold;
+    color: #c00;
+    animation: oscillate 1.8s ease-in-out infinite;
+  }
+  @keyframes oscillate {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50%      { opacity: 0.4; transform: scale(1.15); }
+  }
+
+  footer { text-align: center; font-size: 0.75rem; margin-top: 40px; border-top: 1px solid #000; padding-top: 10px; }
+  @media (max-width: 700px) {
+    .paper { padding: 15px; }
+    .rep-list { columns: 1; }
+    .masthead h1 { font-size: 2rem; }
+  }
+</style>
+</head>
+<body>
+  <div class="paper">
+    <header class="masthead">
+      <h1>LOONIE MAINE POLITIX</h1>
+      <div style="font-size: 0.85rem; font-style: italic;">Apparent Winners – 133rd Legislature</div>
+    </header>
+
+    <nav>
+      <a href="index.html">Front Page</a>
+      <a href="index.html#maine">Maine Notes</a>
+      <a href="index.html#archive">Archive</a>
+      <a href="local-politics.html">Local Politics</a>
+      <a href="index.html#about">About</a>
+    </nav>
+
+    <div class="map-container">
+      <img src="maine-map.jpg" alt="Illustrated Map of Maine">
+      <div class="overlay">LOONIE MAINE POLITIX</div>
+    </div>
+
+    <div class="reps">
+      <h2>Maine House of Representatives</h2>
+      <div class="rep-list">
+        <p><span class="num">1.</span> Austin Theriault | R | Fort Kent | Austin.Theriault@legislature.maine.gov</p>
+        <p><span class="num">2.</span> Roger C. Albert | R | Madawaska | Roger.Albert@legislature.maine.gov | 207-436-9156</p>
+        <p><span class="num">3.</span> Susan Bernard | R | Fort Fairfield | Check legislature site</p>
+        <p><span class="num">4.</span> Timothy Conrad Guerrette | R | Caribou | Timothy.Guerrette@legislature.maine.gov | 207-227-3577</p>
+        <p><span class="num">5.</span> Douglas C. Carlisle Jr. | R | Presque Isle | New member</p>
+        <p><span class="num">6.</span> Donald James Ardell | R | Monticello | Donald.Ardell@legislature.maine.gov | 207-521-1130</p>
+        <p><span class="num">7.</span> Jantzen Stephen Craine | R | Houlton | New member</p>
+        <p><span class="num">8.</span> Tracy Lynn Quint | R | Hodgdon | Tracy.Quint@legislature.maine.gov | 207-217-4493</p>
+        <p><span class="num">9.</span> Arthur K. Mingo | R | Calais | Arthur.Mingo@legislature.maine.gov | 207-214-8537</p>
+        <p><span class="num">10.</span> William R. Tuell | R | East Machias | William.Tuell@legislature.maine.gov | 207-271-8521</p>
+        <p><span class="num">11.</span> Tiffany Strout | R | Harrington | Tiffany.Strout@legislature.maine.gov | 207-598-7043</p>
+        <p><span class="num">12.</span> Thomas Arthur Hart Jr. | R | Gouldsboro | New member</p>
+        <p><span class="num">13.</span> Russell P. White | R | Ellsworth | Russell.White@legislature.maine.gov | 207-460-2299</p>
+        <p><span class="num">14.</span> Gary R. Friedmann | D | Bar Harbor | Gary.Friedmann@legislature.maine.gov | 207-460-7362</p>
+        <p><span class="num">15.</span> Holly R. Eaton | D | Deer Isle | Holly.Eaton@legislature.maine.gov | 207-610-9281</p>
+        <p><span class="num">16.</span> Nina Azella Milliken | D | Blue Hill | Nina.Milliken@legislature.maine.gov | 207-412-8828</p>
+        <p><span class="num">17.</span> Steven Matthew Bishop | R | Bucksport | Steven.Bishop@legislature.maine.gov | 207-991-7909</p>
+        <p><span class="num">18.</span> Mathew David McIntyre | R | Lowell | Mathew.McIntyre@legislature.maine.gov | 207-680-0678</p>
+        <p><span class="num">19.</span> Richard H. Campbell | R | Orrington | Richard.Campbell@legislature.maine.gov | 207-745-7748</p>
+        <p><span class="num">20.</span> Dani O'Halloran | D | Brewer | Dani.OHalloran@legislature.maine.gov | 207-745-4499</p>
+        <p><span class="num">21.</span> Ambureen Rana | D | Bangor | Ambureen.Rana@legislature.maine.gov | 207-350-5081</p>
+        <p><span class="num">22.</span> Laura D. Supica | D | Bangor | Laura.Supica@legislature.maine.gov | 207-717-5702</p>
+        <p><span class="num">23.</span> Victoria P. Kornfield | D | Bangor | Returning</p>
+        <p><span class="num">24.</span> Sean F. Faircloth | D | Bangor | Sean.Faircloth@legislature.maine.gov | 207-307-9868</p>
+        <p><span class="num">25.</span> Laurie Osher | D | Orono | Laurie.Osher@legislature.maine.gov | 207-944-6743</p>
+        <p><span class="num">26.</span> James F. Dill | D | Old Town | James.Dill@legislature.maine.gov | 207-827-3498</p>
+        <p><span class="num">27.</span> David Giles | R | Corinth | New member</p>
+        <p><span class="num">28.</span> Irene A. Gifford | R | Lincoln | Irene.Gifford@legislature.maine.gov</p>
+        <p><span class="num">29.</span> Nancy J. Theriault | R | Millinocket | Nancy.Theriault@legislature.maine.gov</p>
+        <p><span class="num">30.</span> James L. White | R | Guilford | Incumbent</p>
+        <p><span class="num">31.</span> Andrew R. Torbett | R | Atkinson Twp. | New member</p>
+        <p><span class="num">32.</span> Shawn L. Lancaster | R | Garland | New member</p>
+        <p><span class="num">33.</span> Kenneth Wade Fredette | R | Newport | Kenneth.Fredette@legislature.maine.gov</p>
+        <p><span class="num">34.</span> Stacey K. Guerin | R | Glenburn | Returning</p>
+        <p><span class="num">35.</span> James E. Thorne | R | Carmel | Incumbent</p>
+        <p><span class="num">36.</span> Kimberly M. Haggan | R | Hampden | Incumbent</p>
+        <p><span class="num">37.</span> Reagan L. Paul | R | Winterport | Reagan.Paul@legislature.maine.gov</p>
+        <p><span class="num">38.</span> Benjamin C. Hymes | R | Waldo | Incumbent</p>
+        <p><span class="num">39.</span> Madison Crissey Cook | D | Belfast | New member</p>
+        <p><span class="num">40.</span> D. Michael Ray | D | Lincolnville | Michael.Ray@legislature.maine.gov</p>
+        <p><span class="num">41.</span> Joshua D. Gerritsen | D | Rockport | New member</p>
+        <p><span class="num">42.</span> Valli D. Geiger | D | Rockland | Valli.Geiger@legislature.maine.gov</p>
+        <p><span class="num">43.</span> Rhiannon Corey Hampson | D | Thomaston | New member</p>
+        <p><span class="num">44.</span> Shawn Saindon | I | Warren | New member</p>
+        <p><span class="num">45.</span> Clinton E. Collamore | I | Waldoboro | Returning</p>
+        <p><span class="num">46.</span> Jennifer F. Mayher | D | Newcastle | New member</p>
+        <p><span class="num">47.</span> Wayne K. Farrin | D | Jefferson | Incumbent</p>
+        <p><span class="num">48.</span> Charlotte Nutt | D | Edgecomb | New member</p>
+        <p><span class="num">49.</span> Trent E. Vellella | D | West Bath | New member</p>
+        <p><span class="num">50.</span> David A. Sinclair | D | Bath | David.Sinclair@legislature.maine.gov</p>
+        <p><span class="num">51.</span> Rafael Macias | D | Topsham | Incumbent</p>
+        <p><span class="num">52.</span> Sally Jeane Cluchey | D | Bowdoinham | Sally.Cluchey@legislature.maine.gov</p>
+        <p><span class="num">53.</span> Michael H. Lemelin | R | Chelsea | Michael.Lemelin@legislature.maine.gov</p>
+        <p><span class="num">54.</span> Karen L. Montell | D | Gardiner | Incumbent</p>
+        <p><span class="num">55.</span> Maureen AuCoin | D | Hallowell | New member</p>
+        <p><span class="num">56.</span> Randall Adam Greenwood | R | Wales | Incumbent</p>
+        <p><span class="num">57.</span> Tavis Rock Hasenfus | D | Readfield | Incumbent</p>
+        <p><span class="num">58.</span> Sharon C. Frost | I | Belgrade | Sharon.Frost@legislature.maine.gov</p>
+        <p><span class="num">59.</span> Katrina Couch Ray-Saulis | D | Augusta | New member</p>
+        <p><span class="num">60.</span> William R. Bridgeo | D | Augusta | William.Bridgeo@legislature.maine.gov</p>
+        <p><span class="num">61.</span> Alicia Carol Collins | R | Sidney | Alicia.Collins@legislature.maine.gov | 207-751-4736</p>
+        <p><span class="num">62.</span> Katrina J. Smith | R | Palermo | Katrina.Smith@legislature.maine.gov | 207-230-9583</p>
+        <p><span class="num">63.</span> Paul R. Flynn | R | Albion | Paul.Flynn@legislature.maine.gov | 207-314-5525</p>
+        <p><span class="num">64.</span> Flavia M. DeBrito | D | Waterville | Flavia.DeBrito@legislature.maine.gov | 207-660-7212</p>
+        <p><span class="num">65.</span> Cassie Lynn Julia | D | Waterville | Cassie.Julia@legislature.maine.gov | 207-649-5110</p>
+        <p><span class="num">66.</span> Michael D. Perkins | R | Oakland | Returning</p>
+        <p><span class="num">67.</span> Shawn M. Dixon | R | Benton | New member</p>
+        <p><span class="num">68.</span> Amanda Noelle Collamore | R | Pittsfield | Amanda.Collamore@legislature.maine.gov</p>
+        <p><span class="num">69.</span> Dean A. Cray | R | Palmyra | Dean.Cray@legislature.maine.gov</p>
+        <p><span class="num">70.</span> Jennifer Lynn Poirier | R | Skowhegan | Jennifer.Poirier@legislature.maine.gov</p>
+        <p><span class="num">71.</span> John E. Ducharme III | R | Madison | Jack.Ducharme@legislature.maine.gov</p>
+        <p><span class="num">72.</span> Douglas Andrew Thomas | R | Ripley | Returning</p>
+        <p><span class="num">73.</span> Michael Soboleski | R | Phillips | Michael.Soboleski@legislature.maine.gov</p>
+        <p><span class="num">74.</span> Russell J. Black | R | Wilton | Returning</p>
+        <p><span class="num">75.</span> H. Scott Landry | D | Farmington | Scott.Landry@legislature.maine.gov</p>
+        <p><span class="num">76.</span> Sheila Ann Lyman | R | Livermore Falls | Sheila.Lyman@legislature.maine.gov</p>
+        <p><span class="num">77.</span> Tammy L. Schmersal-Burgess | R | Mexico | Tammy.Schmersal-Burgess@legislature.maine.gov</p>
+        <p><span class="num">78.</span> Rachel A. Henderson | R | Rumford | Incumbent</p>
+        <p><span class="num">79.</span> Michael J. Lance | R | Paris | Incumbent</p>
+        <p><span class="num">80.</span> Ernest M. Fitts IV | R | Oxford | New member</p>
+        <p><span class="num">81.</span> Christopher A. Easton | D | Waterford | New member</p>
+        <p><span class="num">82.</span> Christopher Alfred Lewey | D | Fryeburg | New member</p>
+        <p><span class="num">83.</span> Timothy J. Becker | D | Bridgton | New member</p>
+        <p><span class="num">84.</span> Mark Walker | R | Naples | Mark.Walker@legislature.maine.gov</p>
+        <p><span class="num">85.</span> Adrienne Paul | R | Standish | New member</p>
+        <p><span class="num">86.</span> Abigail N. Geer | D | Raymond | New member</p>
+        <p><span class="num">87.</span> David Wayne Boyer Jr. | R | Poland | David.Boyer@legislature.maine.gov | 207-274-4633</p>
+        <p><span class="num">88.</span> Dana N. Staples | D | Auburn | New member</p>
+        <p><span class="num">89.</span> Adam R. Lee | D | Auburn | Adam.Lee@legislature.maine.gov | 207-312-4057</p>
+        <p><span class="num">90.</span> Pamela B. Hart | D | Auburn | New member</p>
+        <p><span class="num">91.</span> Jeffrey L. Timberlake | R | Turner | Returning</p>
+        <p><span class="num">92.</span> Stephen J. Wood | R | Greene | Stephen.Wood@legislature.maine.gov</p>
+        <p><span class="num">93.</span> Julia McCabe | D | Lewiston | Incumbent</p>
+        <p><span class="num">94.</span> Scott A. Harriman | D | Lewiston | Incumbent</p>
+        <p><span class="num">95.</span> Kiernan Innes Majerus-Collins | D | Lewiston | New member</p>
+        <p><span class="num">96.</span> Kerryl Lee Clement | R | Lewiston | New member</p>
+        <p><span class="num">97.</span> Dale John Crafts | R | Lisbon | Returning</p>
+        <p><span class="num">98.</span> Kilton McCarthy Webb | D | Durham | Incumbent</p>
+        <p><span class="num">99.</span> Cheryl A. Golek | D | Harpswell | Cheryl.Golek@legislature.maine.gov</p>
+        <p><span class="num">100.</span> Daniel Joseph Ankeles | D | Brunswick | Daniel.Ankeles@legislature.maine.gov</p>
+        <p><span class="num">101.</span> Poppy T. Arford | D | Brunswick | Poppy.Arford@legislature.maine.gov</p>
+        <p><span class="num">102.</span> Maura H. Pillsbury | D | Freeport | New member</p>
+        <p><span class="num">103.</span> Karin Orenstein | D | Yarmouth | New member</p>
+        <p><span class="num">104.</span> R. Melissa Winslow | R | New Gloucester | New member</p>
+        <p><span class="num">105.</span> Anne Palmer Graham | D | North Yarmouth | Anne.Graham@legislature.maine.gov</p>
+        <p><span class="num">106.</span> Bradley M. Youngs | D | Windham | New member</p>
+        <p><span class="num">107.</span> Joseph A. Campbell | D | Windham | New member</p>
+        <p><span class="num">108.</span> Parnell W. Terry | D | Gorham | Incumbent</p>
+        <p><span class="num">109.</span> Seven R. Siegel | D | Gorham | New member</p>
+        <p><span class="num">110.</span> Christina R.C. Mitchell | D | Cumberland | Incumbent</p>
+        <p><span class="num">111.</span> Amy D. Kuhn | D | Falmouth | Amy.Kuhn@legislature.maine.gov</p>
+        <p><span class="num">112.</span> Sean M. Mahoney | D | Falmouth | New member</p>
+        <p><span class="num">113.</span> Grayson Benjamin Lookner | D | Portland | Grayson.Lookner@legislature.maine.gov</p>
+        <p><span class="num">114.</span> April D. Fournier | D | Portland | New member</p>
+        <p><span class="num">115.</span> Andrew J. Zarro | D | Portland | New member</p>
+        <p><span class="num">116.</span> Samuel Lewis Zager | D | Portland | Sam.Zager@legislature.maine.gov</p>
+        <p><span class="num">117.</span> Matthew Moonen | D | Portland | Matt.Moonen@legislature.maine.gov</p>
+        <p><span class="num">118.</span> Yusuf M. Yusuf | D | Portland | Yusuf.Yusuf@legislature.maine.gov</p>
+        <p><span class="num">119.</span> Michael P. Dixon | D | Portland | New member</p>
+        <p><span class="num">120.</span> Jason J. Shedlock | D | South Portland | New member</p>
+        <p><span class="num">121.</span> Lucy Louisa Perkins | D | South Portland | New member</p>
+        <p><span class="num">122.</span> Matthew D. Beck | D | South Portland | Matthew.Beck@legislature.maine.gov</p>
+        <p><span class="num">123.</span> Michelle N. Boyer | D | Cape Elizabeth | Michelle.Boyer@legislature.maine.gov | 207-239-6318</p>
+        <p><span class="num">124.</span> Eric James Nathanson | D | Scarborough | New member</p>
+        <p><span class="num">125.</span> Kelly Maureen Noonan Murphy | D | Scarborough | Kelly.Murphy@legislature.maine.gov | 207-318-3215</p>
+        <p><span class="num">126.</span> Andrew Gattine | D | Westbrook | Andrew.Gattine@legislature.maine.gov | 207-409-3477</p>
+        <p><span class="num">127.</span> Morgan J. Rielly | D | Westbrook | Morgan.Rielly@legislature.maine.gov | 207-228-5767</p>
+        <p><span class="num">128.</span> Suzanne M. Salisbury | D | Westbrook | Suzanne.Salisbury@legislature.maine.gov | 207-899-6863</p>
+        <p><span class="num">129.</span> Marshall F. Archer | D | Saco | Marshall.Archer@legislature.maine.gov | 207-653-2173</p>
+        <p><span class="num">130.</span> Lynn Holland Copeland | D | Saco | Lynn.Copeland@legislature.maine.gov | 207-712-6776</p>
+        <p><span class="num">131.</span> Robert James Kelly | D | Old Orchard Beach | New member</p>
+        <p><span class="num">132.</span> Ryan Fecteau | D | Biddeford | ryan.fecteau@legislature.maine.gov | 207-287-1300</p>
+        <p><span class="num">133.</span> Marc G. Malon II | D | Biddeford | Marc.Malon@legislature.maine.gov | 207-200-6376</p>
+        <p><span class="num">134.</span> Traci Gere | D | Kennebunkport | Traci.Gere@legislature.maine.gov | 207-710-3557</p>
+        <p><span class="num">135.</span> Lisa Joy Pratt | D | Kennebunk | New member</p>
+        <p><span class="num">136.</span> John Eder | R | Waterboro | John.Eder@legislature.maine.gov | 207-871-0317</p>
+        <p><span class="num">137.</span> Charles Tilburg | D | Buxton | New member</p>
+        <p><span class="num">138.</span> Jonathan Lee Kinney | R | Buxton | Returning</p>
+        <p><span class="num">139.</span> Jamie K. Newton | R | Waterboro | New member</p>
+        <p><span class="num">140.</span> Wayne R. Parry | R | Arundel | Wayne.Parry@legislature.maine.gov | 207-286-9146</p>
+        <p><span class="num">141.</span> Marc A. Boisse | R | Shapleigh | New member</p>
+        <p><span class="num">142.</span> Ayn M. Hanselmann | D | Sanford | New member</p>
+        <p><span class="num">143.</span> John R. Henkelman | D | Sanford | New member</p>
+        <p><span class="num">144.</span> Karen A. Gerrish | R | Lebanon | Returning</p>
+        <p><span class="num">145.</span> Kristin T. Davis | D | Wells | New member</p>
+        <p><span class="num">146.</span> Walter Gerard Runte Jr. | D | York | Gerry.Runte@legislature.maine.gov | 207-361-7143</p>
+        <p><span class="num">147.</span> Holly T. Sargent | D | York | Holly.Sargent@legislature.maine.gov | 207-358-4793</p>
+        <p><span class="num">148.</span> Marissa L. Tasker | D | Berwick | New member</p>
+        <p><span class="num">149.</span> Mallory A. Cook | D | South Berwick | New member</p>
+        <p><span class="num">150.</span> Alexandros Orestis | D | Eliot | New member</p>
+        <p><span class="num">151.</span> Kristi M. Mathieson | D | Kittery | Kristi.Mathieson@legislature.maine.gov | 603-969-7496</p>
+      </div>
+    </div>
+
+    <footer>
+      © 2026 Loonie Maine Politix / The Loonie News • Houlton, Maine • Unofficial results for informational use only • <a href="https://x.com/NewsLoonie" style="color:#000;">@NewsLoonie</a>
+    </footer>
+  </div>
+</body>
+</html>
